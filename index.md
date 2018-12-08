@@ -16,3 +16,5 @@ A major challenge I have experienced while developing applications has been the 
 * Being able to know the image compression algo applied by the library at any given point in time. Switch it on the fly and see how memory usage changes.
 * Being able to check the health of the network connection, Run a speed test, How is this done? How do we analyse such a thing?
 * Apply Jake Wahrton's Rise and Shine hack. See if it still works in the age of kotlin-API28 and beyond.
+
+All this built on Kotlin and on the latest version of the android-SDK. 
