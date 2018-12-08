@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to Android Debug Toolkit
 
-You can use the [editor on GitHub](https://github.com/nitinarv/AndroidDebugToolkit/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+A major challenge I have experienced while developing applications has been the problem of 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nitinarv/AndroidDebugToolkit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* not being able to tell if we are caching correctly, whether
+* our images are scaling properly, or rather at what scale is it even being displayed, 
+* If we are making network requests, how many are actually going through and how many are not, 
+* Checking the rate of drain our code is putting on the batteries. How can this be quantified.
+* If we are using dependency injection, We have loose touch with the instances and the graph of objects that are maintained
+* Being able to toggle strictMode on the fly. Before we start the application and perhaps during its running
+* Ability to see strict mode violations as they are happening.
+* Check frame rates, and how they are changing,
+* View heirarchy
+* Toggle rate of animation
+* Being able to goto the App-Info page straight from the app to un-install or clear memory.
+* Being able to know the image compression algo applied by the library at any given point in time. Switch it on the fly and see how memory usage changes.
+* Being able to check the health of the network connection, Run a speed test, How is this done? How do we analyse such a thing?
+* Apply Jake Wahrton's Rise and Shine hack. See if it still works in the age of kotlin-API28 and beyond.
